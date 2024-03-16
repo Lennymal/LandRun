@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(228, 238, 246);
+   
+}
+
+#main-container {
+    text-align: center;
+    width: 90%;
+}
+
+img {
+    margin-bottom: 0px;
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio (auto adjusts the height based on the width) */
+}
+
+#calendar {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#calendar table {
+    width: 100%;
+}
+
+#calendar th,
+#calendar td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.dates-row {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(13, 82, 98);
+}
+
+#calendar th {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    background-color: #d3b78b;
+}
+
+#empty-row {
+    background-color: rgb(243, 191, 191);
+}
+
+#buttons {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#prevWeek {
+    margin-right: 5px;
+}
+
+#prevWeek,
+#nextWeek {
+    font-size: 120%;
+    border: none;
+    border-radius: 50%;
+    padding: 15px 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
